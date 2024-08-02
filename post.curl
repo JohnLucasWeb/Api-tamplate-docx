@@ -1,0 +1,3 @@
+curl --location 'http://127.0.0.1:8000/processar_docx/' \
+--form 'file=@C:\tmp\template.docx' \
+--form 'substituicoes={"substituicoes": {"{{nome}}": "João da Silva", "{{data}}": "01/08/2024", "{{empresa}}": "Empresa Exemplo Ltda."}};type=application/json'
